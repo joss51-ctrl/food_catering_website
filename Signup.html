@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Tienne' rel='stylesheet'>
+</head>
+<body>
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="nama"><img src="/Source Image Project HCI/Logo.png" alt="Logo" > CAteriNgz </div>
+            </div>
+            <ul class="navigation">
+                <li><a href="ProjectHCI.html"><p>Home</p></a></li>
+                <li><a href="Product.html"><p>Product</p></a></li>
+                <li><a href="Testimoni.html"><p>Testimonial</p></a></li>
+                <li><a href="Aboutus.html"><p>About us</p></a></li>
+                <li><a href="Login.html" class="active"><p>Login</p></a></li>
+            </ul>
+
+        </nav>        
+    </div>
+
+    <div class="bgSign">
+    <form action="a" method="post">
+        
+        <div class="form-container">
+            <h2>Register Account</h2>
+            <label for="nama">Name</label> 
+            <input type="text" id="namaTF" name="nama"> <br>
+        
+            <label for="email">Email</label> 
+            <input type="text" id="emailTF" name="email"> <br>
+        
+            <label for="address">Address</label> 
+            <input type="text" id="addressTF" name="address"> <br>
+            
+            <label for="gender">Gender</label> <br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+         
+            <label for="date">Date of Birth</label> <br>
+            <input type="date" name="date" id="date" min="1924-12-31"> <br>   
+  
+            <button type="button" onclick="openPrivacyPolicy()" id="buttonPrivacy">Privacy and Policy</button><br>
+            <div id="privacyPolicyModal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closePrivacyPolicy()">&times;</span>
+                  <h1>Privacy Policy</h1>
+                  <p>
+                    <b>Information Collection</b><br>
+                    We collect information when you register on our site, subscribe to our newsletter, or fill out other 
+                    forms. <br> The information we collect may include, but is not limited to, your name, email address, and 
+                    other contact information. <br>
+                                               <br>
+                    <b>Use Of Information</b><br>
+                    The information we collect from you may be used to: <br>
+                    1. Personalize your experience and meet your individual needs. <br>
+                    2. Provide better content tailored to your interests. <br> 
+                    3. Improve our website based on the feedback you provide. <br> 
+                    4. Enhance our customer service by responding to your requests more effectively. <br>
+                                                       <br>
+                    <b>Protecting Your Information</b> <br>
+                    We are committed to keeping your information secure. We use various security measures to protect  
+                    your personal information from unauthorized access or use.
+                </p>
+                </div>
+              </div>
+
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree with Terms & Condition</label> <br>
+        
+            <button type="button" onclick="validateData()" id="submitSign">Submit</button>
+            
+        </div>
+    </form>
+</div>
+
+    <script src="index.js"></script>
+
+    <footer class="footer"> <div class="cateringft">CateriNgz.com</div>
+        <div class="bawahcatering">where every dish tells a story of passion, dedication, and the vibrant tapestry</div>
+        <div class="medsos instagram">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="/Source Image Project HCI/IG.png" alt="Instagram">
+            </a>
+        </div>
+        <div class="medsos facebook">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="/Source Image Project HCI/FB (2).png" alt="Facebook">
+            </a>
+        </div>
+        <div class="medsos whatsapp">
+            <a href="https://www.whatsapp.com" target="_blank">
+                <img src="/Source Image Project HCI/WA.png" alt="WhatsApp">
+            </a>
+        </div>
+        
+        
+        <div class="tambahanft">For further information and orders please contact us via our social media </div>
+        <div class="operasi">Operational Hours</div>
+        <div class="jam">Monday - Friday : 07:00 - 20:00</div>
+        <div class="jam">Saturday - Sunday : 07:00 - 15:00</div>
+    
+        <div class="hak">© Copyright 2019 CAteriNgz All Rights Reserved</div>
+     </footer>      
+
+</body>
+</html>
