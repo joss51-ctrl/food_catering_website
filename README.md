@@ -3,7 +3,11 @@ A simple catering website built with HTML, CSS, and JavaScript. The website incl
 
 # How to run
 Download or Clone this Repository
+
 git clone https://github.com/joss51-ctrl/food_catering_website.git
+
 Launch Visual Studio Code
+
 Install the Live Server Extension
+
 Open with Live Server
